@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Primer ejemplo de web">
+    <meta name="author" content="AJM">
+
+
+    <title>Esto es un ejemplillo</title>
+    <!--esto tienes que conectarlo para que te funcionen bien los colores, imagenes y demás-->
+    <!-- Bootstrap core CSS --> 
+    <link href="css/boostrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme_1.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+   <nav class = "navbar navbar-expand-md navbar-dark bg-primary">
+     <a class = "navbar-brand" href = "#">
+       <img src="img/la imagen tuya.png" width = "80" height="50" alt=""> <!--el logo de arriba a la izq-->
+      </a>
+    <!-- este boton es si no está expandido-->
+      <button class=" navbar-toggler" type="buttom" data-toggler = "collapse" data-target="#enlace-para-icono" aria-controls = "enlace-para-icono">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="enlace-para-icono">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pag1.html">página 1</a>
+          </li>
+          <li class="nav-item disabled">
+            <a class="nav-link" href="pag2.html">página 2</a>
+          </li>
+          <li class="nav-item disabled">
+            <a class="nav-link" href="pagina.html">página 3</a>
+          </li>
+        </ul>
+      </div>
+      <!--el botón de buscar-->
+      <form class="from-inline my-2 my-md-0"> 
+        <input class="from-control" type="text" placeholder="Buscar">
+      </form>
+
+   </nav>    
+
+   <div>
+     <div class="jumbotron"> 
+       <div class="col-sm-8 mx-auto">
+         <h1 class="text-primary" style="text-align:center; font-family:Georgia">Home</h1> <!-- indica la página donde estas-->
+         <p class="desc">En esta página se encuentra blablabla</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="container tres-columnas">
+     <div class = "row">
+       <div class="col-lg-4", style=text-align:center>
+         <img src="img/una imagen.jpg"alt="grafo" width="250" height="200">
+         <br>
+         <h2 style="font-family:Georgia">lo que haya en la pág 1</h2>
+         <p>breve explicación de lo que hay en esta página</p>
+         <br>
+          <!-- a la página a la que te redirige si clicas en clica aquí-->
+
+         <p><a class="btn btn-primary" href="pag1.html" role="buttom"> página 1 &raquo;</a></p>
+
+       </div>
+       <div class="col-lg-4", style=text-align:center>
+        <img src="img/una imagen.jpg" alt="graficos" width="250" height="200">
+        <br>
+        <h2 style="font-family:Georgia" >pag 2</h2>
+        <p>Análisis de las ventas, tasa de mercado e interés que despiertan las prendas</p>
+        <br>
+        <!-- a la página a la que te redirige si clicas en clica aquí-->
+        <p><a class="btn btn-primary" href="pag2.html" role="buttom"> página 2 &raquo;</a></p>
+
+      </div>
+      <div class="col-lg-4", style=text-align:center>
+        <img src="img/imagen.jpg"  width="250" height="200">
+        <br>
+        <h2 style="font-family:Georgia">pagina 3</h2>
+        <p>otra explicación de lo que se va a encontrar aqí</p>
+        <br>
+        <!-- a la página a la que te redirige si clicas en clica aquí-->
+        <p><a class="btn btn-primary" href="pagina.html" role="buttom"> página 3 &raquo;</a></p>
+
+      </div>
+
+     </div>
+
+
+   </div>
+   <footer class="pagina-footer">
+     <p>lo que sale abajo del todo tofo</p>
+   </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+    <!-- para que aparezca la caja indicando el tamaño de la imagen que irá -->
+    <script src="js/holder.min.js"></script>
+</body>
+</html>

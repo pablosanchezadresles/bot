@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Dos librerías (js y plotly) -->
+  <!-- d3 -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <!-- Plotly.js -->
+  <script src = "https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Página 1">
+    <meta name="author" content="AJM">
+
+    <title>Pag1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/boostrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme_1.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- La barra de arriba (logo) -->
+   <nav class = "navbar navbar-expand-md navbar-dark bg-primary">
+     <a class = "navbar-brand" href = "#">
+       <img src="img/logo.png" width = "80" height="50" alt="">
+      </a>
+
+    <!-- La barra de arriba (págonas) (este boton es si no está expandido) -->
+      <button class=" navbar-toggler" type="buttom" data-toggler = "collapse" data-target="#enlace-para-icono" aria-controls = "enlace-para-icono">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="enlace-para-icono">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pag1.html">página 1</a>
+          </li>
+          <li class="nav-item disabled">
+            <a class="nav-link" href="pag2.html">página 2</a>
+          </li>
+          <li class="nav-item disabled">
+            <a class="nav-link" href="pagina.html">página 3</a>
+          </li>
+        </ul>
+      </div>
+      <form class="from-inline my-2 my-md-0">
+        <input class="from-control" type="text" placeholder="Buscar">
+      </form>
+
+   </nav>    
+
+   <!-- Visión global -->
+   <div>
+     <div class="jumbotron"> 
+       <div class="col-sm-8 mx-auto">
+         <h1 class="titulos_general">página 2</h1>
+       </div>
+     </div>
+   </div>
+
+   <!-- Gráficos -->
+   <body>
+               <!-- Cuerpo  -->
+            <br>
+            <div class = 'cuerpo_grafico'>
+                <div id ="Heatmap"     style = "width:50%"> </div>
+                <div id ="lechuga"   style = "width:50%"> </div>  
+            </div>
+    
+        <!-- js para gráficos -->
+        <script src="js/nombre del js del gráfico.js"></script>
+
+
+        
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+    <!-- para que aparezca la caja indicando el tamaño de la imagen que irá -->
+    <script src="js/holder.min.js"></script>
+
+</body>
+
+</html>

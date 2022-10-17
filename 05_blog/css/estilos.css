@@ -1,0 +1,188 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+
+/* Las 3 dimensiones
+-------------------------------------------------- */
+
+/* Las centramos y alineamos */
+.dimensiones .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.dimensiones h2 {
+  font-weight: 400;
+  text-align: center;
+
+}
+.dimensiones .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  text-align: center;
+
+}
+
+
+/* hr
+------------------------- */
+
+.hr{
+  margin: 1rem 0;
+  padding-bottom: 15px; /* Space out the Bootstrap <hr> more */
+}
+
+
+
+
+/* cartas
+------------------------- */
+
+
+.carta-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+  text-align: center;
+
+}
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 5); }
+
+/*
+ * Precio
+ */
+
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #770a0a; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+/*
+ * Footer
+ */
+ .pagina-footer {
+  padding: 2.5rem 0;
+  color: rgb(29, 29, 36);
+  text-align: center;
+  background-color: #aabfee;
+  border-top: .05rem solid #aabfee;
+  
+}
+.pagina-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/*
+* Clases propias
+*/
+.titulos_general {
+  text-align: center;
+  color: rgb(138, 138, 255) 
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 35px;
+  color: CadetBlue;      /*color de los titulos que tienen class titulos  */
+  padding: 0%;
+
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.subtitulos {
+  color : 'black';
+  font-size: 25px;
+  text-align: center;    /*para que aparezca el texto en la mitad */
+  background-color: CadetBlue;
+}
+
+.caja_titulo {
+  background-color: 'red';
+}
+.centro {
+  color : 'black';
+  font-size: 15px;
+  text-align: center;    /*para que aparezca el texto en la mitad */
+  display: 'inline';
+}
+
+.cuerpo_grafico{
+  display:flex     /*para poner en fila*/
+}
+
+.jumbotron2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  width:100%;
+  z-index:1;
+  position:fixed;
+}
+
+.jumbotron {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+.card {
+  box-align: center;
+}
+
+.descripcion_carta{
+  display: inline-block;
+  padding: 10px 100px;
+}
+
+.tema-columnas{
+  padding:30px;
+}
+
+.nombre_look{
+  text-align: left;
+  color:black;
+  font-size: 34px;
+}
+
+.desc{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Georgia';
+}
